@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .cards{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                max-width: 1000px;
+                margin: 30px auto;
+                padding: 0 20px;
+            }
+            .cards > div{
+                padding:20px;
+                box-sizing: border-box;
+                min-width: 0;
+                line-height: 1.6;
+            }
+            .cards h3{
+                margin-top: 0;
+            }
+            .ex1{
+                background-color: antiquewhite;
+            }
+            .ex2{
+                background-color: rgb(83, 145, 145);
+            }
+            .ex3{
+                background-color: rgb(184, 160, 130);
+            }
+            .ex4{
+                background-color: rgb(77, 90, 117);
+                color: white;
+            }
+            @media (max-width: 600px){
+                .cards{
+                    grid-template-columns: 1fr;
+                }
+            }
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+            strong{
+                color:brown;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(18, 18, 68);">
+        <div style="background-color: rgb(179, 33, 33); text-align: center;">
+            <h1 style="color:bisque">MIDNIGHT BLUES</h1>
+        <p style="color:bisque"><i>A Night of Jazz, Rhythm & Dance</i></p>
+        <p style="color: bisque">Saturday, October 10, 2026<br>
+            7:30PM - 10:30PM · Taipei
+        </p>
+        </div>
+        <a href="https://github.com/DVRBxTw/115-1-website-programming/settings/pages">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm7LAC6iCpDkWQJeiaTrvCQKYFqIRUVB4jqn3RaSFTPWCLDmt2gKCl6sPU&s=10" width="400" height="400" style="display: block; margin: 0 auto; ">
+        </a>
+        <p style="text-align: center; color: white;">click the image to visit the event website.</p>
+        <div class="cards">
+            <div class="ex1">
+            <h3 style="color:brown">About the Night</h3>
+            <p>Welcome to <strong>Midnight Blue</strong>, a night inspired by classic jazz clubs and social dancing.</p>
+            <p>Enjoy live music, meet new people, and spend the evening dancing to swing, jazz, and rhythm & blues.</p>
+            <p>"Good music. Good people. One unforgettable night."</p>
+            </div>
+            <div class="ex2">
+                <h3 style="color: rgb(224, 224, 102);">Night Highlights</h3>
+                <p style="color:orange">
+                    LIVE BAND<br>
+                    <span style="color:white">The Blue Notes Quarter</span>
+                </p>
+                <p style="color:orange">
+                    SOCIAL DANCE<br>
+                    <span style="color:white">An open dance floor for everyone.</span>
+                </p>
+                <p style="color:orange">
+                    DRESS UP<br>
+                    <span style="color:white">Vintage style is encouraged, but not required.</span>
+                </p>
+
+                <p style="color:white">Music starts at 8:00 PM.</p>
+            </div>
+            <div class="ex3">
+                <h3 style="color:brown">Tonight's Program</h3>
+                <p><strong>7:30PM</strong> Doors Open</p>
+                <p><strong>8:00PM</strong> Live Jazz Set</p>
+                <p><strong>9:00PM</strong> Social Dance</p>
+                <p><strong>10:00PM</strong> Rhythm & Blues Jam</p>
+
+                <p style="color:brown">Schedule Update:<br>
+                    <span style="color: rgb(153, 65, 65);"><del>Doors open at 8:00PM.</del></span><br>
+                    <span style="color:darkgreen; background-color: lightgreen;">Doors now open at 7:30PM.</span>
+                </p>
+            </div>
+            <div class="ex4">
+                <!-- 可以在這裡補上第四個區塊的內容 -->
+                <h3 style="color:rgb(224, 224, 105);">Tickets</h3>
+                <p>Early Bird: <spam><del>NT$800</del></spam><br>
+                    <spam style="color: rgb(224, 224, 105);">Special Price: NT$600</spam>
+                </p>
+
+                <p>Your ticket includes:<br>
+                    Live music + Social dance + Welcome drink
+                </p>
+                
+                <p>Only <spam style="color: rgb(224, 224, 105);">80 tickets</spam> are available.</p>
+
+                <p style="color:rgb(158, 123, 158)"><ins>Reserve Your Ticket</ins></p>
+
+
+            </div>
+        </div>
+        <div style="background-color: rgb(131, 26, 26); text-align: center;">
+            <p  style="color:yellow">Contact Us</p>
+
+            <p style="color: white;">Midnight Blue Jazz Club<br>
+                88 Blue Note Lane, Taipei
+            </p>
+
+            <a href="mailto:lv123456710@gmail.com">lv123456710@gmail.com </a><spam style="color: white;">| </spam><spam><a href="tel:0987147004">0987147004</a></spam>
+        </div>
+        
+    </body>
+</html>
